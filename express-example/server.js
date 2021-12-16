@@ -6,5 +6,5 @@ app.get("/", (req,res) => {
     res.send('Sucessful response.');
 });
 
-app.listen(3000,S () => console.log("Example listening on port 3000."));
+app.listen(3000, () => console.log("Example listening on port 3000."));
 
